@@ -26,7 +26,7 @@ struct ContentView: View {
     // Boolean indicates wether the timer is running or not.
     @State var isTimerRunning = false
 
-    var timer = Timer.publish(every: 0.1, on: .main, in: .common).autoconnect()
+    @State var timer = Timer.publish(every: 0.1, on: .main, in: .common).autoconnect()
 
     var body: some View {
         VStack {
@@ -39,9 +39,7 @@ struct ContentView: View {
             HStack(spacing: 24) {
                 Button {
                     startTime = Date()
-                    isTimerRunning.toggle()
-                    //activity = startActivity()
-
+                    startTimer()
                 } label: {
                     Text("Start")
                     Image(systemName: "stopwatch")
@@ -50,9 +48,7 @@ struct ContentView: View {
                 .disabled(isTimerRunning)
 
                 Button {
-                    isTimerRunning.toggle()
                     stopTimer()
-
                 } label: {
                     Text("Stop")
                     Image(systemName: "stop.circle")
@@ -69,23 +65,30 @@ struct ContentView: View {
                 interval = Date().timeIntervalSince(startTime)
                 duration = totalDuration - interval
                 progress = (duration / totalDuration)
+
+                // Stop timer when it finishes
+                if duration <= 0 {
+                    stopTimer()
+                }
             }
         }
+    }
+
+    func startTimer() {
+        self.timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+        isTimerRunning.toggle()
     }
 
     func stopTimer() {
         self.timer.upstream.connect().cancel()
         resetTimer()
+        isTimerRunning.toggle()
     }
 
     func resetTimer() {
         totalDuration = 120
         duration = 120
         progress = 1.0
-    }
-
-    mutating func startTimer() {
-        self.timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     }
 }
 
