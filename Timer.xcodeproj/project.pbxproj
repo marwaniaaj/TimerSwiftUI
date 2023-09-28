@@ -27,6 +27,7 @@
 		7A24EB5B2AC45F1400161916 /* WidgetCircleTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A24EB5A2AC45F1400161916 /* WidgetCircleTimerView.swift */; };
 		7A24EB5D2AC55D3800161916 /* LiveActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A24EB5C2AC55D3800161916 /* LiveActivityManager.swift */; };
 		7A24EB5E2AC55D3800161916 /* LiveActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A24EB5C2AC55D3800161916 /* LiveActivityManager.swift */; };
+		7ACF1C992AC5C2E4009724F9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF1C982AC5C2E4009724F9 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +62,6 @@
 		7A24EB132AC32A0600161916 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7A24EB1A2AC32B2000161916 /* CircleTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTimerView.swift; sourceTree = "<group>"; };
 		7A24EB1C2AC32D7B00161916 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		7A24EB1E2AC42CB200161916 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7A24EB252AC4450300161916 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		7A24EB272AC4450400161916 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		7A24EB412AC44DAB00161916 /* TimerWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TimerWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +74,7 @@
 		7A24EB572AC4539E00161916 /* TimerAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerAttributes.swift; sourceTree = "<group>"; };
 		7A24EB5A2AC45F1400161916 /* WidgetCircleTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetCircleTimerView.swift; sourceTree = "<group>"; };
 		7A24EB5C2AC55D3800161916 /* LiveActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityManager.swift; sourceTree = "<group>"; };
+		7ACF1C982AC5C2E4009724F9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		7A24EB002AC32A0300161916 = {
 			isa = PBXGroup;
 			children = (
+				7ACF1C982AC5C2E4009724F9 /* README.md */,
 				7A24EB0B2AC32A0300161916 /* Timer */,
 				7A24EB442AC44DAB00161916 /* TimerWidget */,
 				7A24EB242AC4450300161916 /* Frameworks */,
@@ -126,7 +128,6 @@
 				7A24EB5C2AC55D3800161916 /* LiveActivityManager.swift */,
 				7A24EB102AC32A0600161916 /* Assets.xcassets */,
 				7A24EB122AC32A0600161916 /* Preview Content */,
-				7A24EB1E2AC42CB200161916 /* README.md */,
 			);
 			path = Timer;
 			sourceTree = "<group>";
@@ -245,6 +246,7 @@
 			files = (
 				7A24EB142AC32A0600161916 /* Preview Assets.xcassets in Resources */,
 				7A24EB112AC32A0600161916 /* Assets.xcassets in Resources */,
+				7ACF1C992AC5C2E4009724F9 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
