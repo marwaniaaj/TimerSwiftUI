@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "09C5F0E3-1784-41D0-8EE3-6088C4126A07"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DFE01121-A72D-4F4B-B24D-E539F1DFE2C3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Timer/LiveActivityManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "updateActivity(activity:duration:progress:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DFE01121-A72D-4F4B-B24D-E539F1DFE2C3 - 38b269b77afe7f77"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Timer.LiveActivityManager.updateActivity(activity: Swift.String, duration: Swift.Double, progress: Swift.Double) -&gt; ()"
+                  moduleName = "Timer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marwaniaaj/iWork/Work/Medium/iOS/Timer/Timer/LiveActivityManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "639">
+               </Location>
+               <Location
+                  uuid = "DFE01121-A72D-4F4B-B24D-E539F1DFE2C3 - fb8517ab47ca1bd0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in Timer.LiveActivityManager.updateActivity(activity: Swift.String, duration: Swift.Double, progress: Swift.Double) -&gt; ()"
+                  moduleName = "Timer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marwaniaaj/iWork/Work/Medium/iOS/Timer/Timer/LiveActivityManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  uuid = "DFE01121-A72D-4F4B-B24D-E539F1DFE2C3 - 49d9e8c61bf02335"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Timer.LiveActivityManager.updateActivity(activity: Swift.String, duration: Swift.Double, progress: Swift.Double) -&gt; ()"
+                  moduleName = "Timer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marwaniaaj/iWork/Work/Medium/iOS/Timer/Timer/LiveActivityManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
